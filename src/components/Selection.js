@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import '../styles/Child.css';
+import React, { useState } from "react";
+import "./../styles/Child.css";
 
 const Selection = (props) => {
     const [nextBackground, selectNextBackground] = useState({ background: "" });
