@@ -28,7 +28,7 @@ const App = () => {
 
   const applyColor = (updateSelectionStyle) => {
     updateSelectionStyle(nextBackground);
-  }
+  };
 
   return (
     <div id="master">
@@ -48,8 +48,8 @@ const App = () => {
         }
       </div>
     </div >
-  )
-}
+  );
+};
 
 
 export default App;
